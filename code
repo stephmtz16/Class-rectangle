@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+class Rectangle {
+private:
+
+	int width;
+	int height;
+
+public:
+	int area();
+	int perimeter();
+	void initialize(int w, int h);
+};
+
+int main() {
+	int w;
+	int h;
+	Rectangle r1;
+	r1.initialize(3,5);
+
+	Rectangle r2;
+	r2.initialize(8, 15);
+
+	Rectangle r3;
+	r3.initialize(35, 35);
+
+	
+
+
+}
+
+int Rectangle::area() {
+
+}
+int Rectangle::perimeter() {
+
+}
+void Rectangle::initialize(int w, int h) {
+
+}
